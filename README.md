@@ -18,10 +18,8 @@ eigenvector v if:
 
 M.v=λv⟺(M−λI).v=0
 
-when 'I' is the identity matrix of size m.
-
-Practically, the eigenvalues of M are the roots of its characteristic polynomial P.
-
+when 'I' is the identity matrix of size m.  
+Practically, the eigenvalues of M are the roots of its characteristic polynomial P.  
 In general a square matrix of size m, has m number of eigenvalues but some or all of them may be
 complex numbers.
 
@@ -35,3 +33,12 @@ Like Jacobi and Gauss-Seidel methods, the power method for approximating eigenva
 iterative. This method is very good at approximating the dominant eigenvalues and especially
 for matrices with many zero elements for example sparse matrices.
 
+####  To run the program 4 or 5 input arguments are needed:
+./eigen N iteration tolerance thread filename
+
+Where the input arguments have the following meaning:  
+N: an integer for size of square matrix  
+iteration: an integer for number of iteration for the numerical method  
+tolerance: a real number for tolerance to stop iterations when convergence criteria reaches  
+thread: an integer as number of threads for parallelization  
+filename: an optional text file to load, if not provided the program makes a random matrix of size n  
