@@ -1,4 +1,4 @@
-### High Performance Programming codes in C programming
+### High Performance Programming project with C language
 
 Eigenvalues, also known as characteristic roots, are numbers that can characterize a matrix and
 reveal important behavior of it in a simplified way.
@@ -17,7 +17,7 @@ eigenvector v if:
 
 M.v=λv⟺(M−λI).v=0
 
-when I is the identity matrix (of size m).
+when 'I' is the identity matrix of size m.
 
 Practically, the eigenvalues of M are the roots of its characteristic polynomial P".
 In general a square matrix of size m, has m number of eigenvalues but some or all of them may be
