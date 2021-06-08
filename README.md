@@ -1,3 +1,4 @@
+## Power Method
 ### High Performance Programming project with C language
 
 Eigenvalues, also known as characteristic roots, are numbers that can characterize a matrix and
@@ -12,16 +13,17 @@ engineering and it is used in a variety of areas such as stability analysis, phy
 small oscillations of vibrating systems electric network analysis, quantum mechanics, the
 stability analysis of discretization methods for systems of ordinary differential equations, etc.
 
-“For any square matrix M of size m×m, eigenvalues are called lambda λ and associated with an
+For any square matrix M of size m×m, eigenvalues are called lambda λ and associated with an
 eigenvector v if:
 
 M.v=λv⟺(M−λI).v=0
 
 when 'I' is the identity matrix of size m.
 
-Practically, the eigenvalues of M are the roots of its characteristic polynomial P".
+Practically, the eigenvalues of M are the roots of its characteristic polynomial P.
+
 In general a square matrix of size m, has m number of eigenvalues but some or all of them may be
-complex numbers. A good visualization of these concepts can be found here.
+complex numbers.
 
 Up to some size of matrix, it is easily possible to use the equation above and find eigenvalues and
 eigenvectors. But it gets harder when the size of matrix starts to grow. In engineering applications,
